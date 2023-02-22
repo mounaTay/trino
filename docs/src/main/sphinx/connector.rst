@@ -38,8 +38,8 @@ from different data sources.
     Prometheus      <connector/prometheus>
     Redis           <connector/redis>
     Redshift        <connector/redshift>
-    SingleStore     <connector/memsql>
     Snowflake       <connector/snowflake>
+    SingleStore     <connector/singlestore>
     SQL Server      <connector/sqlserver>
     System          <connector/system>
     Thrift          <connector/thrift>
