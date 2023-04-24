@@ -2043,6 +2043,7 @@
                                     <include>org.yaml:snakeyaml:*:jar:test</include>
                                 </includes>
                             </bannedDependencies>
+                            <requireProfileIdsExist/>
                         </rules>
                     </configuration>
                     <dependencies>
