@@ -2891,7 +2891,7 @@
                                     </dependency>
                                 </conflictingDependencies>
                                 <packages>
-                                    <pacakge>shaded.parquet.it.unimi.dsi.fastutil</pacakge>
+                                    <package>shaded.parquet.it.unimi.dsi.fastutil</package>
                                 </packages>
                             </exception>
                         </exceptions>
