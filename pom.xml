@@ -223,7 +223,6 @@
                 <artifactId>trino-array</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>io.trino</groupId>
                 <artifactId>trino-base-jdbc</artifactId>
