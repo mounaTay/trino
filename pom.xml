@@ -218,6 +218,7 @@
 
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>io.trino</groupId>
                 <artifactId>trino-array</artifactId>
@@ -1293,6 +1294,11 @@
                 <groupId>io.airlift</groupId>
                 <artifactId>joni</artifactId>
                 <version>2.1.5.3</version>
+            </dependency>
+            <dependency>
+                <groupId>io.airlift</groupId>
+                <artifactId>junit-extensions</artifactId>
+                <version>1</version>
             </dependency>
 
             <dependency>
@@ -3107,7 +3113,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <properties>
-                        <configurationParameters>junit.jupiter.execution.timeout.thread.mode.default = SEPARATE_THREAD</configurationParameters>
+                        <configurationParameters>junit.jupiter.execution.timeout.thread.mode.default = SEPARATE_THREAD
+                            junit.jupiter.extensions.autodetection.enabled = true</configurationParameters>
                     </properties>
                     <includes>
                         <!-- Tests classes should start with "Test", but we do also want to include tests incorrectly named, with "Test" at the end -->
