@@ -40,6 +40,7 @@ from different data sources.
     Redshift        <connector/redshift>
     Snowflake       <connector/snowflake>
     SingleStore     <connector/singlestore>
+    Salesforce      <connector/salesforce>
     SQL Server      <connector/sqlserver>
     System          <connector/system>
     Thrift          <connector/thrift>

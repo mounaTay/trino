@@ -193,6 +193,11 @@
             <unpack />
         </artifact>
     </artifactSet>
+    <artifactSet to="plugin/salesforce">
+        <artifact id="${project.groupId}:trino-salesforce:zip:${project.version}">
+            <unpack />
+        </artifact>
+    </artifactSet>
 
     <artifactSet to="plugin/sqlserver">
         <artifact id="${project.groupId}:trino-sqlserver:zip:${project.version}">
